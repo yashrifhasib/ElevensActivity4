@@ -69,7 +69,7 @@ public class Deck {
             this.cards.set( i, this.cards.get( rand ) );
             this.cards.set( rand, temp );
         }
-        size = 0;
+        this.size = this.cards.size();
     }
 
     /**
